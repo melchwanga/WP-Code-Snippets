@@ -1,0 +1,10 @@
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\obj\Debug\MyConsoleApp.csprojAssemblyReference.cache
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\obj\Debug\MyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\bin\Debug\MyConsoleApp.exe.config
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\bin\Debug\MyConsoleApp.exe
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\bin\Debug\MyConsoleApp.pdb
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\obj\Debug\MyConsoleApp.exe
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\obj\Debug\MyConsoleApp.pdb
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\bin\Debug\MyLinkedList.dll
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\bin\Debug\MyLinkedList.pdb
+C:\Users\melchsedech.wanga\Source\Repos\MyConsoleApp\obj\Debug\MyConsoleApp.csproj.CopyComplete
