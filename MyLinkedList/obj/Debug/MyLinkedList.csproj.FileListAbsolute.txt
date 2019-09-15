@@ -1,6 +1,0 @@
-C:\Users\melchsedech.wanga\Source\Repos\MyLinkedList\bin\Debug\MyLinkedList.dll
-C:\Users\melchsedech.wanga\Source\Repos\MyLinkedList\bin\Debug\MyLinkedList.pdb
-C:\Users\melchsedech.wanga\Source\Repos\MyLinkedList\obj\Debug\MyLinkedList.csproj.CoreCompileInputs.cache
-C:\Users\melchsedech.wanga\Source\Repos\MyLinkedList\obj\Debug\MyLinkedList.dll
-C:\Users\melchsedech.wanga\Source\Repos\MyLinkedList\obj\Debug\MyLinkedList.pdb
-C:\Users\melchsedech.wanga\Source\Repos\MyLinkedList\obj\Debug\MyLinkedList.csprojAssemblyReference.cache
