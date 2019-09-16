@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Nobel Book';
+    src: url('Nobel-Book.eot');
+    src: url('Nobel-Book.eot?#iefix') format('embedded-opentype'),
+        url('Nobel-Book.woff2') format('woff2'),
+        url('Nobel-Book.woff') format('woff'),
+        url('Nobel-Book.ttf') format('truetype'),
+        url('Nobel-Book.svg#Nobel-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nobel';
+    src: url('Nobel-Bold.eot');
+    src: url('Nobel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nobel-Bold.woff2') format('woff2'),
+        url('Nobel-Bold.woff') format('woff'),
+        url('Nobel-Bold.ttf') format('truetype'),
+        url('Nobel-Bold.svg#Nobel-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

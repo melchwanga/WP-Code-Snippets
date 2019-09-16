@@ -1,0 +1,2417 @@
+/***** GENERAL STYLING *******/
+/* line 36, main.scss */
+img {
+  height: auto;
+}
+
+/* line 42, main.scss */
+.centerAligner {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  max-width: 1100px;
+}
+
+/* line 53, main.scss */
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: 'Nobel';
+  letter-spacing: 2.4px;
+}
+
+/* line 60, main.scss */
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* line 67, main.scss */
+h2 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+/* line 74, main.scss */
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* line 79, main.scss */
+h4 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* line 86, main.scss */
+h5 {
+  font-size: 16px;
+}
+
+/* line 90, main.scss */
+h6 {
+  font-size: 12px;
+}
+
+/* line 94, main.scss */
+p, a, span, input, li, label, address, time {
+  font-family: 'Nobel Book';
+  text-decoration: none;
+}
+
+/* line 105, main.scss */
+u {
+  text-decoration: underline;
+}
+
+/*ol li{
+  font-family: 'open_sanslight_italic';
+}*/
+/* line 113, main.scss */
+p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+/* line 121, main.scss */
+.fl {
+  float: left;
+}
+
+/* line 127, main.scss */
+.fr {
+  float: right;
+}
+
+/* line 133, main.scss */
+.clear {
+  clear: both;
+  clear: left;
+  clear: right;
+}
+
+/* line 141, main.scss */
+.one_third, .three_eigth {
+  width: 30%;
+  margin-right: 3%;
+}
+
+/* line 148, main.scss */
+.two_third {
+  width: 63%;
+  margin-right: 3%;
+}
+
+/* line 153, main.scss */
+.center {
+  text-align: center;
+}
+
+/* line 157, main.scss */
+.one_quarter {
+  width: 23%;
+  margin-right: 2%;
+}
+
+/* line 164, main.scss */
+.half {
+  width: 48%;
+  margin-right: 2%;
+}
+
+/* line 171, main.scss */
+.three_quarter {
+  width: 73%;
+  margin-right: 2%;
+}
+
+/* line 178, main.scss */
+.full_width {
+  width: 100%;
+}
+
+/* line 184, main.scss */
+.one_fifth {
+  width: 18%;
+  margin-right: 2%;
+}
+
+/* line 191, main.scss */
+.two_fifth {
+  width: 38%;
+  margin-right: 2%;
+}
+
+/* line 196, main.scss */
+.three_fifth {
+  width: 58%;
+  margin-right: 2%;
+  min-width: 58%;
+}
+
+/* line 204, main.scss */
+.one_eigth {
+  width: 10.5%;
+  margin-right: 2%;
+}
+
+/* line 211, main.scss */
+.two_eigth {
+  width: 23%;
+  margin-right: 2%;
+}
+
+/* line 218, main.scss */
+#jpreLoader {
+  top: 50% !important;
+  margin-top: -40px;
+  display: none;
+}
+
+/* line 224, main.scss */
+#jpreOverlay {
+  background-color: #f5f5f5;
+}
+
+/* line 230, main.scss */
+.overlay {
+  background: url(../img/map_overlay.png);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+/* line 242, main.scss */
+#jpreSlide {
+  position: absolute;
+  top: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 252, main.scss */
+#jpreSlide .preloader1 {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+}
+
+/* line 260, main.scss */
+#jpreSlide .progress, #jpreSlide .intro {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  color: #211f44;
+}
+
+/* line 270, main.scss */
+#jpreSlide .intro {
+  top: 20%;
+  display: none;
+}
+/* line 275, main.scss */
+#jpreSlide .intro p {
+  font-size: 20px;
+}
+
+/* line 283, main.scss */
+#jpreSlide .preloader2 {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+/* line 293, main.scss */
+form input {
+  background: #fff;
+  outline: none;
+  border: none;
+  width: 73%;
+  margin-right: 2%;
+  height: 40px;
+  color: #182638;
+  text-indent: 30px;
+}
+/* line 306, main.scss */
+form button, form input[type=submit] {
+  background: #d64a43;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Nobel';
+}
+
+/*************** SCROLLBAR BASE CSS ***************/
+/* line 324, main.scss */
+.scroll-wrapper {
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+/* line 330, main.scss */
+.scroll-wrapper > .scroll-content {
+  border: none !important;
+  box-sizing: content-box !important;
+  height: auto;
+  left: 0;
+  margin: 0;
+  max-height: none;
+  max-width: none !important;
+  overflow: scroll !important;
+  padding: 0;
+  position: relative !important;
+  top: 0;
+  width: auto !important;
+}
+
+/* line 345, main.scss */
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+/* line 350, main.scss */
+.scroll-element {
+  display: none;
+}
+
+/* line 353, main.scss */
+.scroll-element, .scroll-element div {
+  box-sizing: content-box;
+}
+
+/* line 357, main.scss */
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+  display: block;
+}
+
+/* line 362, main.scss */
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+  cursor: default;
+}
+
+/* line 367, main.scss */
+.scroll-textarea {
+  border: 1px solid #cccccc;
+  border-top-color: #999999;
+}
+
+/* line 371, main.scss */
+.scroll-textarea > .scroll-content {
+  overflow: hidden !important;
+}
+
+/* line 374, main.scss */
+.scroll-textarea > .scroll-content > textarea {
+  border: none !important;
+  box-sizing: border-box;
+  height: 100% !important;
+  margin: 0;
+  max-height: none !important;
+  max-width: none !important;
+  overflow: scroll !important;
+  outline: none;
+  padding: 2px;
+  position: relative !important;
+  top: 0;
+  width: 100% !important;
+}
+
+/* line 388, main.scss */
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+/*************** SIMPLE INNER SCROLLBAR ***************/
+/* line 398, main.scss */
+.scrollbar-inner > .scroll-element,
+.scrollbar-inner > .scroll-element div {
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+/* line 408, main.scss */
+.scrollbar-inner > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 416, main.scss */
+.scrollbar-inner > .scroll-element.scroll-x {
+  bottom: 2px;
+  height: 8px;
+  left: 0;
+  width: 100%;
+}
+
+/* line 423, main.scss */
+.scrollbar-inner > .scroll-element.scroll-y {
+  height: 100%;
+  right: 2px;
+  top: 0;
+  width: 8px;
+}
+
+/* line 430, main.scss */
+.scrollbar-inner > .scroll-element .scroll-element_outer {
+  overflow: hidden;
+}
+
+/* line 434, main.scss */
+.scrollbar-inner > .scroll-element .scroll-element_outer,
+.scrollbar-inner > .scroll-element .scroll-element_track,
+.scrollbar-inner > .scroll-element .scroll-bar {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* line 442, main.scss */
+.scrollbar-inner > .scroll-element .scroll-element_track,
+.scrollbar-inner > .scroll-element .scroll-bar {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+}
+
+/* line 449, main.scss */
+.scrollbar-inner > .scroll-element .scroll-element_track {
+  background-color: #e0e0e0;
+}
+
+/* line 450, main.scss */
+.scrollbar-inner > .scroll-element .scroll-bar {
+  background-color: #c2c2c2;
+}
+
+/* line 451, main.scss */
+.scrollbar-inner > .scroll-element:hover .scroll-bar {
+  background-color: #919191;
+}
+
+/* line 452, main.scss */
+.scrollbar-inner > .scroll-element.scroll-draggable .scroll-bar {
+  background-color: #919191;
+}
+
+/* update scrollbar offset if both scrolls are visible */
+/* line 457, main.scss */
+.scrollbar-inner > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
+  left: -12px;
+}
+
+/* line 458, main.scss */
+.scrollbar-inner > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {
+  top: -12px;
+}
+
+/* line 461, main.scss */
+.scrollbar-inner > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {
+  left: -12px;
+}
+
+/* line 462, main.scss */
+.scrollbar-inner > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
+  top: -12px;
+}
+
+/* line 464, main.scss */
+html {
+  margin-top: 0px !important;
+}
+
+/* line 468, main.scss */
+body {
+  padding-top: 0px;
+}
+
+/* line 474, main.scss */
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  letter-spacing: 2px;
+}
+
+/* line 483, main.scss */
+.learnMore {
+  display: inline-block;
+  padding: 20px 40px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/* line 494, main.scss */
+label.error {
+  margin-bottom: 10px;
+  color: #FA2300;
+  display: block;
+}
+
+/* line 502, main.scss */
+.readMore, .edit {
+  display: inline-block;
+  padding: 15px 20px;
+  text-align: center;
+  width: auto;
+  background: #d64a43;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  letter-spacing: 2px;
+}
+
+/* line 517, main.scss */
+.readMore:hover {
+  color: #d64a43;
+  background: #fff;
+  border: 3px solid #d64a43;
+  padding: 12px 17px;
+}
+
+/***** END GENERAL STYLING *******/
+/* line 529, main.scss */
+#jpreBar {
+  background: #79c143;
+}
+
+/***** HEADER STYLING *******/
+/* line 537, main.scss */
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+/* line 548, main.scss */
+header .headerWrapper {
+  margin: 0 auto;
+  width: 94%;
+  transition: all 1s linear;
+  position: relative;
+  height: 100px;
+}
+/* line 558, main.scss */
+header .logoContainer {
+  width: 200px;
+  height: 100px;
+  display: block;
+  float: left;
+}
+/* line 565, main.scss */
+header .logoContainer a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/logo.png) center center no-repeat;
+  background-size: contain;
+}
+/* line 577, main.scss */
+header .mainNav {
+  display: block;
+  float: right;
+  max-width: 400px;
+  margin-top: 0px;
+  width: 100%;
+}
+/* line 585, main.scss */
+header .mainNav nav {
+  float: right;
+  transition: all 1s linear;
+  width: 100%;
+}
+/* line 594, main.scss */
+header .mainNav ul {
+  display: block;
+  height: 55px;
+  float: right;
+}
+/* line 600, main.scss */
+header .mainNav ul li {
+  float: left;
+  height: 55px;
+  line-height: 55px;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+/* line 612, main.scss */
+header .mainNav ul a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #232a3b;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3.6px;
+  font-family: 'Nobel';
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+/* line 627, main.scss */
+header .mainNav ul a:hover, header .mainNav ul a.current {
+  height: 100%;
+  color: #d64a43;
+}
+/* line 641, main.scss */
+header .menuOpener {
+  display: none;
+}
+
+/***** END HEADER STYLING *******/
+/* line 653, main.scss */
+.sidr {
+  background: #fff;
+}
+
+/* line 659, main.scss */
+.sidr ul li {
+  width: 100%;
+  padding-left: 0px;
+  border-bottom: 1px solid #fff;
+  line-height: 39px;
+}
+
+/* line 668, main.scss */
+.sidr ul li span {
+  display: none;
+}
+
+/* line 672, main.scss */
+.sidr ul li ul {
+  background: #4D4D4D;
+}
+
+/* line 676, main.scss */
+.sidr ul li ul li a, .sidr ul li ul li span {
+  padding-left: 0px;
+  color: #211f44;
+  background: #fff;
+}
+
+/* line 684, main.scss */
+.sidr ul li a {
+  color: #211f44 !important;
+  text-transform: none;
+  font-size: 13px;
+  font-family: 'epocaclassiclight';
+  text-indent: 30px;
+}
+
+/* line 694, main.scss */
+.sidr ul li a:hover {
+  color: #fff !important;
+}
+
+/* line 700, main.scss */
+.sidr ul li.accordionParent > a {
+  background: #fff url(../img/header/sidr_closed.png) 94% 10px no-repeat;
+}
+
+/* line 704, main.scss */
+.sidr ul li.accordionParent > a:hover {
+  background: #068142 url(../img/header/sidr_closed.png) 94% 10px no-repeat;
+}
+
+/* line 708, main.scss */
+.sidr ul li.accordionParent li.accordionParent a {
+  text-indent: 35px;
+}
+
+/* line 712, main.scss */
+.sidr ul li.accordionParent li.accordionParent li.accordionParent a {
+  text-indent: 40px;
+}
+
+/* line 716, main.scss */
+.sidr ul li.accordionParent.open > a {
+  background: url(../img/header/sidr_open.png) 94% 10px no-repeat;
+  background-color: #fff;
+}
+
+/* line 721, main.scss */
+.sidr ul li a:hover, .sidr ul li a.current {
+  font-family: 'epocaclassicmedium';
+  line-height: 39px;
+  /*background: url(../img/category/category_bg.png) repeat-y left top;*/
+  background-size: 100%;
+  background: #068142;
+  color: #fff;
+}
+
+/***** END HEADER STYLING *******/
+/***** BANNER CONTAINER *******/
+/* line 737, main.scss */
+.bannerContainer {
+  width: 100%;
+  position: relative;
+  margin-top: -50px;
+  overflow: hidden;
+}
+/* line 744, main.scss */
+.bannerContainer .centerAligner {
+  overflow: visible;
+}
+/* line 750, main.scss */
+.bannerContainer figure {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+}
+/* line 757, main.scss */
+.bannerContainer figure img, .bannerContainer figure iframe {
+  width: 100%;
+  min-width: 940px;
+}
+/* line 764, main.scss */
+.bannerContainer figure iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  min-width: auto;
+}
+/* line 774, main.scss */
+.bannerContainer .icon {
+  position: absolute;
+  left: 50%;
+  margin-left: -95px;
+  z-index: 40;
+  top: -10%;
+  margin-top: -125px;
+}
+/* line 785, main.scss */
+.bannerContainer form {
+  position: absolute;
+  width: 100%;
+  max-width: 740px;
+  left: 50%;
+  margin-left: -370px;
+  z-index: 20;
+  top: 100%;
+  text-align: center;
+  display: none;
+}
+/* line 797, main.scss */
+.bannerContainer form p {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: 'Nobel';
+  line-height: 50px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-align: center;
+}
+/* line 808, main.scss */
+.bannerContainer form p input {
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Nobel';
+  letter-spacing: 3px;
+  font-size: 32px;
+}
+/* line 821, main.scss */
+.bannerContainer form p .weare {
+  max-width: 230px;
+}
+/* line 827, main.scss */
+.bannerContainer form p .number {
+  max-width: 105px;
+}
+/* line 833, main.scss */
+.bannerContainer form p .email {
+  max-width: 230px;
+}
+/* line 838, main.scss */
+.bannerContainer form button {
+  padding: 15px 50px;
+  background: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: 'Nobel';
+  color: #232a3b;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 45px;
+  letter-spacing: 2px;
+}
+/* line 857, main.scss */
+.bannerContainer form button:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background: #232a3b;
+  padding: 13px 50px;
+}
+
+/* line 869, main.scss */
+.imageSlider {
+  position: relative;
+  overflow: hidden;
+}
+/* line 874, main.scss */
+.imageSlider .introDescription {
+  top: auto !important;
+  top: 40% !important;
+  position: absolute;
+  text-align: center;
+  width: 100% !important;
+  left: 0% !important;
+}
+/* line 883, main.scss */
+.imageSlider .introDescription h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 4px;
+  text-transform: normal;
+}
+/* line 893, main.scss */
+.imageSlider .introDescription p {
+  color: #fff;
+}
+/* line 897, main.scss */
+.imageSlider .introDescription h2, .imageSlider .introDescription p {
+  color: #fff;
+}
+/* line 901, main.scss */
+.imageSlider .introDescription h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 909, main.scss */
+.imageSlider .introDescription p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+/* line 917, main.scss */
+.imageSlider .introDescription a {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #fff;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+/* line 931, main.scss */
+.imageSlider .sp-image-container {
+  width: 100% !important;
+}
+/* line 935, main.scss */
+.imageSlider .sp-image-container img {
+  width: 100% !important;
+  margin: 0 auto;
+  min-width: auto;
+}
+/* line 951, main.scss */
+.imageSlider .sp-arrows {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  width: 98%;
+}
+/* line 958, main.scss */
+.imageSlider .sp-arrows .sp-arrow {
+  height: 25px;
+  color: #fff;
+  display: inline-block;
+  line-height: 25px;
+  width: 25px;
+  position: absolute;
+  background: #232a3b;
+  border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  font-family: 'Nobel Book';
+}
+/* line 973, main.scss */
+.imageSlider .sp-arrows .sp-previous-arrow {
+  left: 10px;
+  background: url(../img/locations/button_left_bg.png) #232a3b left center no-repeat;
+}
+/* line 980, main.scss */
+.imageSlider .sp-arrows .sp-next-arrow {
+  right: 10px;
+  background: url(../img/locations/button_bg.png) #232a3b -3px center no-repeat;
+}
+/* line 987, main.scss */
+.imageSlider .sp-buttons {
+  bottom: 10px;
+}
+/* line 990, main.scss */
+.imageSlider .sp-buttons .sp-button {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../img/single/carousel/ring.png) center center no-repeat;
+}
+/* line 999, main.scss */
+.imageSlider .sp-buttons .sp-selected-button {
+  background: url(../img/single/carousel/current.png) center center no-repeat;
+}
+/* line 1007, main.scss */
+.imageSlider .sp-thumbnails-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+}
+/* line 1015, main.scss */
+.imageSlider .sp-thumbnails-container .sp-thumbnails {
+  width: 100% !important;
+}
+/* line 1019, main.scss */
+.imageSlider .sp-thumbnails-container .sp-thumbnail-container {
+  background: #fff;
+  width: 16% !important;
+  padding: 2%;
+  height: 180px !important;
+}
+/* line 1028, main.scss */
+.imageSlider .sp-thumbnails-container .sp-selected-thumbnail {
+  background: #004B93;
+  border-top: 6px #E41B13 solid;
+}
+/* line 1033, main.scss */
+.imageSlider .sp-thumbnails-container .sp-selected-thumbnail h5, .imageSlider .sp-thumbnails-container .sp-selected-thumbnail h2 {
+  color: #fff;
+}
+
+/***** END BANNER CONTAINER *******/
+/* line 1050, main.scss */
+.bookTour {
+  position: fixed;
+  padding: 15px;
+  background: #d64a43;
+  color: #fff;
+  top: 50%;
+  right: 0px;
+  z-index: 40;
+  cursor: pointer;
+  font-family: 'Nobel';
+  text-transform: uppercase;
+  margin-top: -23px;
+  letter-spacing: 2.88px;
+}
+
+/***** LOCATION CAROUSEL *******/
+/* line 1069, main.scss */
+#centres {
+  position: relative;
+}
+/* line 1073, main.scss */
+#centres article {
+  position: absolute;
+  width: 35%;
+  top: 25%;
+  left: 10%;
+  z-index: 20;
+}
+/* line 1081, main.scss */
+#centres article h3 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 34px;
+  letter-spacing: 5.7px;
+  font-size: 24px;
+}
+/* line 1092, main.scss */
+#centres article a:hover {
+  background: none;
+}
+
+/* line 1100, main.scss */
+.locationCarousel {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* line 1105, main.scss */
+.locationCarousel .item {
+  width: 100%;
+}
+/* line 1109, main.scss */
+.locationCarousel .item .imageWrapper {
+  position: relative;
+  width: 70%;
+  right: 0px;
+  margin-left: 30%;
+}
+/* line 1116, main.scss */
+.locationCarousel .item .imageWrapper h5 {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+/* line 1123, main.scss */
+.locationCarousel .item .imageWrapper a {
+  padding-right: 35px;
+  height: 25px;
+  background: url(../img/locations/button_bg.png) right center no-repeat;
+  color: #232a3b;
+  display: inline-block;
+  line-height: 25px;
+}
+/* line 1135, main.scss */
+.locationCarousel .item .imageWrapper img {
+  width: 100%;
+}
+
+/***** END LOCATION CAROUSEL *******/
+/***** PRODUCT DETAILS *******/
+/* line 1151, main.scss */
+.productDetails, .locationDetails {
+  background: #232a3b url(../img/products/triangle_wedge.png) right bottom no-repeat fixed;
+  padding: 60px 0px;
+}
+/* line 1156, main.scss */
+.productDetails h2, .locationDetails h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+  letter-spacing: 5.76px;
+}
+/* line 1167, main.scss */
+.productDetails .singleProduct, .productDetails .singleLocation, .locationDetails .singleProduct, .locationDetails .singleLocation {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+/* line 1172, main.scss */
+.productDetails .singleProduct .productImage, .productDetails .singleProduct img, .productDetails .singleLocation .productImage, .productDetails .singleLocation img, .locationDetails .singleProduct .productImage, .locationDetails .singleProduct img, .locationDetails .singleLocation .productImage, .locationDetails .singleLocation img {
+  width: 49%;
+}
+/* line 1176, main.scss */
+.productDetails .singleProduct article, .productDetails .singleLocation article, .locationDetails .singleProduct article, .locationDetails .singleLocation article {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  width: 45%;
+}
+/* line 1184, main.scss */
+.productDetails .singleProduct article .icon, .productDetails .singleLocation article .icon, .locationDetails .singleProduct article .icon, .locationDetails .singleLocation article .icon {
+  width: 90px;
+  height: 90px;
+  background: #d64a43;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* line 1193, main.scss */
+.productDetails .singleProduct article .icon img, .productDetails .singleLocation article .icon img, .locationDetails .singleProduct article .icon img, .locationDetails .singleLocation article .icon img {
+  width: 60px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: block;
+}
+/* line 1204, main.scss */
+.productDetails .singleProduct article h3, .productDetails .singleLocation article h3, .locationDetails .singleProduct article h3, .locationDetails .singleLocation article h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Nobel Book';
+  background: url(../img/products/heading_bg.png) bottom center no-repeat;
+}
+/* line 1217, main.scss */
+.productDetails .singleProduct:nth-child(even) article, .productDetails .singleLocation:nth-child(even) article, .locationDetails .singleProduct:nth-child(even) article, .locationDetails .singleLocation:nth-child(even) article {
+  float: right;
+  margin-left: 4%;
+}
+/* line 1222, main.scss */
+.productDetails .singleProduct:nth-child(even) .productImage, .productDetails .singleLocation:nth-child(even) .productImage, .locationDetails .singleProduct:nth-child(even) .productImage, .locationDetails .singleLocation:nth-child(even) .productImage {
+  float: left;
+}
+/* line 1232, main.scss */
+.productDetails .singleProduct:nth-child(odd) article, .productDetails .singleLocation:nth-child(odd) article, .locationDetails .singleProduct:nth-child(odd) article, .locationDetails .singleLocation:nth-child(odd) article {
+  float: left;
+  margin-right: 4%;
+}
+/* line 1237, main.scss */
+.productDetails .singleProduct:nth-child(odd) .productImage, .productDetails .singleLocation:nth-child(odd) .productImage, .locationDetails .singleProduct:nth-child(odd) .productImage, .locationDetails .singleLocation:nth-child(odd) .productImage {
+  float: right;
+}
+
+/* line 1245, main.scss */
+.locationDetails {
+  background: #f4ede5;
+}
+/* line 1249, main.scss */
+.locationDetails p, .locationDetails h3 {
+  color: #000000;
+}
+
+/* line 1257, main.scss */
+.managerContact {
+  background: url(../img/single/triangle.png) top right no-repeat fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+/* line 1264, main.scss */
+.managerContact .centerAligner {
+  overflow: visible;
+}
+/* line 1268, main.scss */
+.managerContact h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 5.7px;
+}
+/* line 1276, main.scss */
+.managerContact h3 {
+  font-family: 'Nobel Book';
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+/* line 1284, main.scss */
+.managerContact h5 {
+  font-family: 'Nobel Book';
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  padding-bottom: 33px;
+  background: url(../img/products/heading_bg.png) bottom left no-repeat;
+}
+/* line 1292, main.scss */
+.managerContact a, .managerContact a:visited {
+  color: #d64a43;
+}
+/* line 1296, main.scss */
+.managerContact .readMore, .managerContact .readMore:visited {
+  color: #fff;
+}
+/* line 1300, main.scss */
+.managerContact .titleHolder {
+  position: absolute;
+  left: -70px;
+  top: 70px;
+}
+/* line 1308, main.scss */
+.managerContact figure {
+  display: inline-block;
+}
+/* line 1312, main.scss */
+.managerContact figure img {
+  width: 100%;
+}
+/* line 1318, main.scss */
+.managerContact article {
+  position: absolute;
+  right: 0px;
+  left: 62%;
+  top: 0px;
+  bottom: 0px;
+  background: #fff;
+  padding: 4%;
+  width: 30%;
+  margin-right: 0px;
+}
+
+/* line 1334, main.scss */
+.facilities, .pricing {
+  background: #232a3b;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+/* line 1340, main.scss */
+.facilities .centerAligner, .pricing .centerAligner {
+  text-align: left;
+}
+/* line 1344, main.scss */
+.facilities h3, .pricing h3 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  background: url(../img/products/heading_bg.png) bottom left no-repeat;
+  padding-bottom: 30px;
+  letter-spacing: 5.7px;
+}
+/* line 1356, main.scss */
+.facilities span, .pricing span {
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px;
+  text-align: center;
+  width: 9%;
+  margin-right: 3%;
+  vertical-align: top;
+}
+/* line 1366, main.scss */
+.facilities span p, .pricing span p {
+  color: #fff;
+}
+/* line 1373, main.scss */
+.facilities .priceOption, .pricing .priceOption {
+  display: inline-block;
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  vertical-align: top;
+}
+/* line 1382, main.scss */
+.facilities .priceOption .icon, .pricing .priceOption .icon {
+  width: 90px;
+  height: 90px;
+  background: #d64a43;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* line 1391, main.scss */
+.facilities .priceOption .icon img, .pricing .priceOption .icon img {
+  width: 60px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: block;
+}
+/* line 1402, main.scss */
+.facilities .priceOption h3, .pricing .priceOption h3 {
+  font-size: 24px;
+  text-transform: unset;
+  color: #232a3b;
+  background-position: center bottom;
+}
+
+/* line 1415, main.scss */
+.locationMap {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* line 1420, main.scss */
+.locationMap div {
+  display: inline-block;
+}
+/* line 1424, main.scss */
+.locationMap div iframe {
+  width: 100%;
+}
+/* line 1430, main.scss */
+.locationMap h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 5.7px;
+}
+/* line 1439, main.scss */
+.locationMap article {
+  position: absolute;
+  right: 0px;
+  left: 62%;
+  top: 60px;
+  bottom: 0px;
+  background: #fff;
+  padding: 4%;
+  width: 30%;
+  margin-right: 0px;
+}
+/* line 1451, main.scss */
+.locationMap article h3 {
+  font-family: 'Nobel Book';
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+/* line 1459, main.scss */
+.locationMap article .address, .locationMap article .location, .locationMap article .transport {
+  padding-left: 70px;
+  padding-bottom: 20px;
+}
+/* line 1466, main.scss */
+.locationMap article .address {
+  background: url(../img/single/content_location.png) left top no-repeat;
+}
+/* line 1472, main.scss */
+.locationMap article .location {
+  background: url(../img/single/content_building.png) left top no-repeat;
+}
+/* line 1478, main.scss */
+.locationMap article .transport {
+  background: url(../img/single/content_transport.png) left top no-repeat;
+}
+
+/* line 1487, main.scss */
+.contactForm, .globalForm {
+  padding-top: 100px;
+  background: url(../img/single/contact_wedge.png) left top no-repeat;
+}
+/* line 1492, main.scss */
+.contactForm h2, .globalForm h2 {
+  text-align: center;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+/* line 1500, main.scss */
+.contactForm .col-md-6, .contactForm .col-sm-8, .globalForm .col-md-6, .globalForm .col-sm-8 {
+  width: 100% !important;
+  float: none;
+}
+/* line 1509, main.scss */
+.contactForm form, .globalForm form {
+  padding: 40px;
+  background: #fff;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+/* line 1516, main.scss */
+.contactForm form .half, .globalForm form .half {
+  display: inline-block;
+  vertical-align: top;
+  width: 47%;
+}
+/* line 1524, main.scss */
+.contactForm form h3, .globalForm form h3 {
+  font-family: 'Nobel Book';
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+/* line 1533, main.scss */
+.contactForm form p, .globalForm form p {
+  margin-bottom: 35px;
+}
+/* line 1539, main.scss */
+.contactForm form label, .contactForm form .control-label, .globalForm form label, .globalForm form .control-label {
+  display: block;
+  margin-bottom: 20px;
+  color: #232a3b;
+  font-family: 'Nobel Book';
+  font-size: 18px;
+}
+/* line 1549, main.scss */
+.contactForm form label.error, .globalForm form label.error {
+  color: #d64a43 !important;
+  font-weight: normal !important;
+  margin-top: 10px !important;
+}
+/* line 1557, main.scss */
+.contactForm form .control-label, .globalForm form .control-label {
+  display: block !important;
+  text-align: left !important;
+  width: 100% !important;
+  font-weight: normal !important;
+  margin-bottom: 20px !important;
+}
+/* line 1567, main.scss */
+.contactForm form small, .globalForm form small {
+  margin-bottom: 15px;
+  display: none !important;
+}
+/* line 1576, main.scss */
+.contactForm form input, .contactForm form textarea, .contactForm form select, .globalForm form input, .globalForm form textarea, .globalForm form select {
+  height: 40px !important;
+  border: 1px solid #cbcbcb !important;
+  text-indent: 0px !important;
+  width: 100% !important;
+  border-radius: 0px !important;
+  font-family: 'Nobel Book';
+  margin-bottom: 10px !important;
+  font-size: 18px !important;
+}
+/* line 1589, main.scss */
+.contactForm form textarea, .globalForm form textarea {
+  height: 250px !important;
+  margin-bottom: 30px;
+}
+/* line 1596, main.scss */
+.contactForm form li.gfield.gf_right_half, .contactForm form li.gf_left_half, .globalForm form li.gfield.gf_right_half, .globalForm form li.gf_left_half {
+  display: block !important;
+}
+/* line 1602, main.scss */
+.contactForm form .message, .globalForm form .message {
+  position: absolute;
+  right: 0px;
+  top: 120px;
+}
+/* line 1608, main.scss */
+.contactForm form .message textarea, .globalForm form .message textarea {
+  height: 250px;
+}
+/* line 1614, main.scss */
+.contactForm form .col-sm-12, .globalForm form .col-sm-12 {
+  display: inline-flex !important;
+  align-items: flex-start !important;
+  justify-content: left !important;
+}
+/* line 1620, main.scss */
+.contactForm form .form-group, .globalForm form .form-group {
+  margin-bottom: 0px !important;
+}
+/* line 1624, main.scss */
+.contactForm form #booking-overview, .globalForm form #booking-overview {
+  margin-bottom: 20px;
+}
+/* line 1628, main.scss */
+.contactForm form #booking-overview tr, .contactForm form #booking-overview td, .globalForm form #booking-overview tr, .globalForm form #booking-overview td {
+  font-family: 'Nobel Book';
+  font-size: 18px !important;
+}
+/* line 1636, main.scss */
+.contactForm form input[type=submit], .contactForm form button, .contactForm form input[type=reset], .globalForm form input[type=submit], .globalForm form button, .globalForm form input[type=reset] {
+  text-indent: 0px !important;
+  font-size: 13px !important;
+  padding-left: 0px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  text-transform: uppercase !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  font-family: 'Nobel' !important;
+  background: #d64a43 !important;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-color: #d64a43 !important;
+  border-radius: 0px !important;
+}
+/* line 1660, main.scss */
+.contactForm .disclaimer, .globalForm .disclaimer {
+  display: block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+/* line 1670, main.scss */
+.contactForm .mapCarousel, .globalForm .mapCarousel {
+  max-width: 670px;
+  margin: 0 auto;
+}
+/* line 1677, main.scss */
+.contactForm .mapCarousel .owl-item h5, .globalForm .mapCarousel .owl-item h5 {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+/* line 1684, main.scss */
+.contactForm .mapCarousel .owl-item a, .globalForm .mapCarousel .owl-item a {
+  padding-right: 35px;
+  height: 25px;
+  background: url(../img/locations/button_bg.png) right center no-repeat;
+  color: #232a3b;
+  display: inline-block;
+  line-height: 25px;
+}
+/* line 1696, main.scss */
+.contactForm .mapCarousel iframe, .globalForm .mapCarousel iframe {
+  width: 94%;
+}
+
+/* line 1705, main.scss */
+.globalForm {
+  position: fixed;
+  background: url(../img/contact/contact_bg.png) right top no-repeat;
+  background-size: cover;
+  top: 50px;
+  left: 100%;
+  right: -30%;
+  bottom: 0px;
+  z-index: 30;
+  overflow: scroll;
+}
+/* line 1718, main.scss */
+.globalForm .closer {
+  width: 40px;
+  height: 40px;
+  background: url(../img/contact/closer.png) center center no-repeat;
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  cursor: pointer;
+}
+
+/***** END PRODUCT DETAILS *******/
+/***** FEATURE CAROUSEL *******/
+/* line 1736, main.scss */
+.featureCarousel {
+  position: relative;
+}
+/* line 1740, main.scss */
+.featureCarousel .owl-controls {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 45px;
+}
+/* line 1749, main.scss */
+.featureCarousel .owl-controls .owl-pagination {
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+/* line 1756, main.scss */
+.featureCarousel .owl-controls .owl-pagination .owl-page {
+  background: url(../img/single/carousel/ring.png) center center no-repeat;
+}
+/* line 1762, main.scss */
+.featureCarousel .owl-controls .owl-pagination .owl-page.active {
+  background: url(../img/single/carousel/current.png) center center no-repeat;
+}
+/* line 1770, main.scss */
+.featureCarousel .owl-controls .owl-buttons {
+  top: 50%;
+  margin-top: -13px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+/* line 1778, main.scss */
+.featureCarousel .owl-controls .owl-buttons div {
+  height: 25px;
+  color: #fff;
+  display: inline-block;
+  line-height: 25px;
+  width: 25px;
+  position: absolute;
+  background: #232a3b;
+  border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  font-family: 'Nobel Book';
+}
+/* line 1792, main.scss */
+.featureCarousel .owl-controls .owl-buttons .owl-prev {
+  left: 10px;
+  background: url(../img/locations/button_left_bg.png) #232a3b left center no-repeat;
+}
+/* line 1798, main.scss */
+.featureCarousel .owl-controls .owl-buttons .owl-next {
+  right: 10px;
+  background: url(../img/locations/button_bg.png) #232a3b -3px center no-repeat;
+}
+/* line 1809, main.scss */
+.featureCarousel article {
+  position: absolute;
+  top: 48%;
+  text-align: center;
+  left: 10%;
+  right: 10%;
+}
+/* line 1817, main.scss */
+.featureCarousel article h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 7.68px;
+}
+/* line 1828, main.scss */
+.featureCarousel article .readMore {
+  background: #fff;
+  color: #232a3b;
+  margin-right: 20px;
+}
+/* line 1841, main.scss */
+.featureCarousel .item img {
+  width: 100%;
+  min-width: 768px;
+}
+
+/***** END FEATURE CAROUSEL *******/
+/***** MAP LOCATIONS *******/
+/* line 1856, main.scss */
+.mapContainer {
+  padding-top: 80px;
+  position: relative;
+}
+/* line 1861, main.scss */
+.mapContainer .jvectormap-zoomin, .mapContainer .jvectormap-zoomout {
+  width: 17px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  top: auto;
+  font-size: 20px;
+  line-height: 20px;
+}
+/* line 1876, main.scss */
+.mapContainer .mapLabel {
+  background: #fff;
+}
+/* line 1882, main.scss */
+.mapContainer .jvectormap-zoomin {
+  top: auto;
+  bottom: 56px;
+}
+/* line 1887, main.scss */
+.mapContainer .jvectormap-zoomout {
+  bottom: 23px;
+}
+/* line 1891, main.scss */
+.mapContainer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  letter-spacing: 5.7px;
+}
+/* line 1901, main.scss */
+.mapContainer .map {
+  width: 100%;
+  background: #232a3b;
+  height: 530px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 1909, main.scss */
+.mapContainer .map h3, .mapContainer .map p {
+  color: #232a3b;
+}
+/* line 1919, main.scss */
+.mapContainer .mapMeta {
+  position: absolute;
+  right: 90px;
+  top: 40px;
+  z-index: 20;
+}
+/* line 1926, main.scss */
+.mapContainer .mapMeta .singleMeta {
+  margin-bottom: 20px;
+}
+/* line 1929, main.scss */
+.mapContainer .mapMeta .singleMeta p {
+  color: #fff;
+}
+
+/* line 1938, main.scss */
+.jvectormap-click {
+  display: none;
+  background: #fff !important;
+  padding-top: 30px;
+}
+/* line 1944, main.scss */
+.jvectormap-click .highlight {
+  position: absolute;
+  left: -36px;
+  top: 30px;
+  width: 40px;
+  height: 40px;
+  background: url(../img/maps/left_horn.png) right center no-repeat;
+}
+/* line 1955, main.scss */
+.jvectormap-click .accordion {
+  display: none;
+  margin-top: 15px;
+}
+/* line 1960, main.scss */
+.jvectormap-click h3 {
+  color: #232a3b;
+  font-family: 'Nobel Book';
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #d64a43;
+  cursor: pointer;
+  background: url(../img/accordion_down.png) 95% center no-repeat;
+  font-size: 24px;
+}
+/* line 1975, main.scss */
+.jvectormap-click h3.open {
+  background: url(../img/accordion_up.png) 95% center no-repeat;
+}
+/* line 1980, main.scss */
+.jvectormap-click p {
+  color: #232a3b;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  background: url(../img/products/heading_bg.png) 30px bottom no-repeat;
+}
+/* line 1991, main.scss */
+.jvectormap-click a {
+  padding-left: 30px;
+  color: #232a3b;
+  font-size: 16px;
+  padding-right: 35px;
+  margin-bottom: 15px;
+  height: 25px;
+  background: url(../img/locations/button_bg.png) right center no-repeat;
+  color: #232a3b;
+  display: inline-block;
+  line-height: 25px;
+}
+/* line 2004, main.scss */
+.jvectormap-click img {
+  max-width: 280px;
+  width: 100%;
+}
+/* line 2009, main.scss */
+.jvectormap-click .closer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #232a3b;
+  cursor: pointer;
+  font-family: 'Nobel Book';
+  text-align: center;
+}
+
+/***** END MAP LOCATIONS *******/
+/***** CENTRES CAROUSEL *******/
+/* line 2030, main.scss */
+.centersCarousel {
+  padding: 75px 0px;
+}
+/* line 2034, main.scss */
+.centersCarousel h3 {
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+}
+/* line 2041, main.scss */
+.centersCarousel .filterContainer {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  width: 50%;
+  text-align: right;
+}
+/* line 2049, main.scss */
+.centersCarousel .filterContainer select {
+  height: 35px;
+  display: inline-block;
+  margin-right: 1%;
+  width: 31%;
+  background: #fff;
+  border: 1px solid #232a3b;
+  text-indent: 15px;
+  font-size: 16px;
+  font-family: 'Nobel Book';
+}
+/* line 2065, main.scss */
+.centersCarousel .carousel {
+  margin-top: 40px;
+}
+/* line 2069, main.scss */
+.centersCarousel .carousel .item {
+  position: relative;
+  z-index: 1;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+}
+/* line 2079, main.scss */
+.centersCarousel .carousel .item img {
+  width: 100%;
+}
+/* line 2083, main.scss */
+.centersCarousel .carousel .item .fl_card {
+  width: 94%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.4s linear;
+  margin-left: 3%;
+}
+/* line 2091, main.scss */
+.centersCarousel .carousel .item .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+/* line 2099, main.scss */
+.centersCarousel .carousel .item .face.front::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 10;
+  content: '';
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 2113, main.scss */
+.centersCarousel .carousel .item .face.front {
+  position: relative;
+}
+/* line 2117, main.scss */
+.centersCarousel .carousel .item .face.front h3 {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  color: #fff;
+  z-index: 20;
+}
+/* line 2132, main.scss */
+.centersCarousel .carousel .item .face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: #232a3b;
+  text-align: center;
+  background-color: #fff;
+  top: 0px;
+  bottom: 0px;
+  z-index: 40;
+}
+/* line 2145, main.scss */
+.centersCarousel .carousel .item .face.back h3 {
+  margin-top: 20px;
+}
+/* line 2151, main.scss */
+.centersCarousel .carousel .item .face.back a {
+  margin-top: 20px;
+}
+/* line 2160, main.scss */
+.centersCarousel .carousel .item:hover .fl_card {
+  transform: rotateY(180deg);
+}
+
+/* line 2172, main.scss */
+#centres-hidden {
+  display: none;
+}
+
+/* line 2178, main.scss */
+.owl-pagination {
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 2183, main.scss */
+.owl-pagination .owl-page {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../img/carousel/indicator.png) center center no-repeat;
+}
+/* line 2191, main.scss */
+.owl-pagination .owl-page.active {
+  background: url(../img/carousel/current_indicator.png) center center no-repeat;
+}
+
+/***** END CENTRES CAROUSEL *******/
+/* line 2200, main.scss */
+.clientsGrid {
+  background: url(../img/clients/bg.png) top left no-repeat fixed;
+}
+/* line 2204, main.scss */
+.clientsGrid h3 {
+  margin-top: 70px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 5.7px;
+}
+/* line 2213, main.scss */
+.clientsGrid .two_third {
+  text-align: center;
+}
+/* line 2217, main.scss */
+.clientsGrid .two_third img {
+  width: 29%;
+  margin-right: 3%;
+  display: inline-block;
+}
+
+/****** CONTACT PAGE STYLING ********/
+/****** END CONTACT PAGE STYLING ********/
+/***** FOOTER STYLING *******/
+/* line 2236, main.scss */
+.innerpage footer {
+  background-image: none;
+  background-color: #077c3f;
+  min-height: auto;
+  padding-top: 0px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+/* line 2245, main.scss */
+.innerpage footer .contactStrip {
+  padding-top: 0px;
+}
+/* line 2249, main.scss */
+.innerpage footer .contactStrip ul {
+  text-align: left;
+}
+/* line 2253, main.scss */
+.innerpage footer .contactStrip img {
+  display: none;
+}
+/* line 2261, main.scss */
+.innerpage footer .contactStrip li a {
+  color: #fff;
+  background: none;
+}
+
+/* line 2273, main.scss */
+footer {
+  width: 100%;
+  background: #182638;
+  clear: both;
+  padding-bottom: 70px;
+}
+/* line 2281, main.scss */
+footer .contactStrip {
+  text-align: left;
+}
+/* line 2285, main.scss */
+footer .contactStrip form {
+  display: none;
+}
+/* line 2289, main.scss */
+footer .contactStrip form input {
+  background: #fff;
+  outline: none;
+  border: none;
+  width: 73%;
+  margin-right: 2%;
+  height: 40px;
+  color: #182638;
+  text-indent: 30px;
+  font-size: 16px;
+}
+/* line 2303, main.scss */
+footer .contactStrip form button {
+  background: #d64a43;
+  height: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Nobel';
+}
+/* line 2316, main.scss */
+footer .contactStrip h5 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 2324, main.scss */
+footer .contactStrip .one_third {
+  margin-top: 50px;
+}
+/* line 2330, main.scss */
+footer .contactStrip ul {
+  margin-top: 30px;
+}
+/* line 2334, main.scss */
+footer .contactStrip ul li {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 2340, main.scss */
+footer .contactStrip ul li a {
+  color: #fff;
+  padding-right: 35px;
+}
+/* line 2351, main.scss */
+footer .contactStrip .socialLink {
+  text-align: center;
+  margin-top: 25px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+/* line 2359, main.scss */
+footer .contactStrip .socialLink a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  background: url(../img/footer/social_icons.png) -4px 0px no-repeat;
+}
+/* line 2368, main.scss */
+footer .contactStrip .socialLink .twitter {
+  background: url(../img/footer/social_icons.png) -80px 0px no-repeat;
+}
+/* line 2372, main.scss */
+footer .contactStrip .socialLink .instagram {
+  background: url(../img/footer/social_icons.png) -42px 0px no-repeat;
+}
+/* line 2376, main.scss */
+footer .contactStrip .socialLink a:hover {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  background: url(../img/footer/social_icons_hover.png) -4px 0px no-repeat;
+}
+/* line 2385, main.scss */
+footer .contactStrip .socialLink .twitter:hover {
+  background: url(../img/footer/social_icons_hover.png) -80px 0px no-repeat;
+}
+/* line 2389, main.scss */
+footer .contactStrip .socialLink .instagram:hover {
+  background: url(../img/footer/social_icons_hover.png) -42px 0px no-repeat;
+}
+
+/***** END FOOTER STYLING *******/
+/***** SEARCH PAGE  *******/
+/* line 2402, main.scss */
+.search-form {
+  margin: 0 auto;
+  width: 94%;
+  padding: 15px 3%;
+  background: #79c143;
+  margin-bottom: 15px;
+}
+/* line 2410, main.scss */
+.search-form label {
+  color: #fff;
+  margin-right: 10px;
+  display: inline-block;
+}
+/* line 2416, main.scss */
+.search-form input {
+  height: 40px;
+  text-indent: 20px;
+  line-height: 40px;
+  background: #fff;
+}
+/* line 2425, main.scss */
+.search-form input[type="submit"] {
+  text-indent: 0px;
+  text-align: center;
+  background: #015b41;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  height: 45px;
+  margin-left: -5px;
+}
+
+/* line 2443, main.scss */
+.searchResults .search_item {
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #236b57;
+  padding-bottom: 10px;
+}
+/* line 2451, main.scss */
+.searchResults .search_item h3 {
+  margin-bottom: 10px;
+}
+/* line 2455, main.scss */
+.searchResults .search_item h3 a {
+  color: #236b57;
+  display: block;
+  width: 100%;
+}
+
+/***** END SEARCH PAGE  *******/
+/***** MEDIA QUERY 1100PX *******/
+@media screen and (min-width: 1440px) {
+  /* line 2476, main.scss */
+  .centerAligner {
+    /*max-width: 1366px;*/
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 2484, main.scss */
+  body {
+    padding-top: 0px;
+  }
+
+  /* line 2492, main.scss */
+  .managerContact .titleHolder {
+    position: relative;
+    left: 0px;
+    margin-bottom: 20px;
+    top: 0px;
+  }
+  /* line 2501, main.scss */
+  .managerContact article {
+    top: 120px;
+  }
+}
+/***** END MEDIA QUERY 1100PX *******/
+/***** MEDIA QUERY 960PX *******/
+@media screen and (max-width: 1000px) {
+  /* line 2515, main.scss */
+  body {
+    padding-top: 0px;
+  }
+
+  /* line 2521, main.scss */
+  .centerAligner {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  /* line 2528, main.scss */
+  header {
+    position: relative;
+  }
+
+  /* line 2558, main.scss */
+  .productDetails, .locationDetails {
+    background-image: none;
+  }
+  /* line 2562, main.scss */
+  .productDetails .singleProduct, .productDetails .singleProduct:nth-child(even), .productDetails .singleProduct:nth-child(odd), .productDetails .singleLocation, .productDetails .singleLocation:nth-child(even), .productDetails .singleLocation:nth-child(odd), .locationDetails .singleProduct, .locationDetails .singleProduct:nth-child(even), .locationDetails .singleProduct:nth-child(odd), .locationDetails .singleLocation, .locationDetails .singleLocation:nth-child(even), .locationDetails .singleLocation:nth-child(odd) {
+    width: 90%;
+    margin-left: 5%;
+  }
+  /* line 2567, main.scss */
+  .productDetails .singleProduct .productImage, .productDetails .singleProduct img, .productDetails .singleProduct:nth-child(even) .productImage, .productDetails .singleProduct:nth-child(even) img, .productDetails .singleProduct:nth-child(odd) .productImage, .productDetails .singleProduct:nth-child(odd) img, .productDetails .singleLocation .productImage, .productDetails .singleLocation img, .productDetails .singleLocation:nth-child(even) .productImage, .productDetails .singleLocation:nth-child(even) img, .productDetails .singleLocation:nth-child(odd) .productImage, .productDetails .singleLocation:nth-child(odd) img, .locationDetails .singleProduct .productImage, .locationDetails .singleProduct img, .locationDetails .singleProduct:nth-child(even) .productImage, .locationDetails .singleProduct:nth-child(even) img, .locationDetails .singleProduct:nth-child(odd) .productImage, .locationDetails .singleProduct:nth-child(odd) img, .locationDetails .singleLocation .productImage, .locationDetails .singleLocation img, .locationDetails .singleLocation:nth-child(even) .productImage, .locationDetails .singleLocation:nth-child(even) img, .locationDetails .singleLocation:nth-child(odd) .productImage, .locationDetails .singleLocation:nth-child(odd) img {
+    float: none;
+    margin: 0 auto;
+    max-width: 60%;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+  }
+  /* line 2576, main.scss */
+  .productDetails .singleProduct article, .productDetails .singleProduct:nth-child(even) article, .productDetails .singleProduct:nth-child(odd) article, .productDetails .singleLocation article, .productDetails .singleLocation:nth-child(even) article, .productDetails .singleLocation:nth-child(odd) article, .locationDetails .singleProduct article, .locationDetails .singleProduct:nth-child(even) article, .locationDetails .singleProduct:nth-child(odd) article, .locationDetails .singleLocation article, .locationDetails .singleLocation:nth-child(even) article, .locationDetails .singleLocation:nth-child(odd) article {
+    float: none;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  /* line 2586, main.scss */
+  .managerContact {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 2593, main.scss */
+  .managerContact .titleHolder {
+    position: relative;
+    left: 0px;
+    margin-bottom: 20px;
+    top: 0px;
+  }
+  /* line 2602, main.scss */
+  .managerContact figure {
+    width: 100%;
+  }
+  /* line 2606, main.scss */
+  .managerContact article {
+    top: 120px;
+    position: relative;
+    width: 92%;
+    left: 0px;
+    top: 0px;
+  }
+
+  /* line 2618, main.scss */
+  .facilities {
+    text-align: center;
+  }
+  /* line 2622, main.scss */
+  .facilities .centerAligner {
+    text-align: center;
+  }
+
+  /* line 2635, main.scss */
+  .locationContainer {
+    margin-top: 10px;
+  }
+  /* line 2638, main.scss */
+  .locationContainer figure {
+    display: none;
+  }
+  /* line 2642, main.scss */
+  .locationContainer .mapContainer {
+    width: 100%;
+    float: none;
+  }
+  /* line 2647, main.scss */
+  .locationContainer .mapContainer .mapOverlay {
+    display: none;
+  }
+  /* line 2651, main.scss */
+  .locationContainer .mapContainer iframe {
+    width: 100%;
+    height: 300px;
+  }
+  /* line 2656, main.scss */
+  .locationContainer .mapContainer .officeInfo {
+    position: relative;
+    width: 94%;
+    padding: 3%;
+    top: 0px;
+    bottom: 0px;
+  }
+
+  /* line 2674, main.scss */
+  footer .half {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 2697, main.scss */
+  .bannerContainer form {
+    width: 90%;
+    left: 5%;
+    margin-left: 0px;
+    margin-top: -20%;
+    display: none !important;
+  }
+  /* line 2705, main.scss */
+  .bannerContainer form br {
+    display: none;
+  }
+
+  /* line 2714, main.scss */
+  #centres article {
+    position: relative;
+    width: 90%;
+    top: 5%;
+    left: 0%;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+  /* line 2722, main.scss */
+  #centres article a:hover {
+    background: none;
+  }
+
+  /* line 2728, main.scss */
+  .locationCarousel {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  /* line 2735, main.scss */
+  .locationCarousel .item .imageWrapper {
+    position: relative;
+    width: 90%;
+    right: 0px;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+
+  /* line 2753, main.scss */
+  .productDetails .singleProduct .productImage, .productDetails .singleProduct:nth-child(even) .productImage, .productDetails .singleProduct:nth-child(odd) .productImage, .locationDetails .singleProduct .productImage, .locationDetails .singleProduct:nth-child(even) .productImage, .locationDetails .singleProduct:nth-child(odd) .productImage {
+    float: none;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+  }
+  /* line 2762, main.scss */
+  .productDetails .singleProduct article, .productDetails .singleProduct:nth-child(even) article, .productDetails .singleProduct:nth-child(odd) article, .locationDetails .singleProduct article, .locationDetails .singleProduct:nth-child(even) article, .locationDetails .singleProduct:nth-child(odd) article {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  /* line 2773, main.scss */
+  .mapContainer .mapMeta {
+    left: 90px;
+    text-align: center;
+    top: auto;
+    bottom: 0px;
+  }
+  /* line 2780, main.scss */
+  .mapContainer .mapMeta .singleMeta {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /* line 2785, main.scss */
+  .mapContainer .mapMeta .singleMeta img {
+    width: 40px;
+  }
+
+  /* line 2795, main.scss */
+  .centersCarousel .filterContainer {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* line 2804, main.scss */
+  .locationMap {
+    width: 90%;
+    margin-left: 5%;
+  }
+  /* line 2809, main.scss */
+  .locationMap .two_third {
+    width: 100%;
+    margin-right: 0px;
+  }
+  /* line 2816, main.scss */
+  .locationMap article {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 92%;
+  }
+
+  /* line 2827, main.scss */
+  .pricing {
+    width: 90%;
+    margin-left: 5%;
+  }
+  /* line 2832, main.scss */
+  .pricing .priceOption {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+
+  /* line 2844, main.scss */
+  .facilities span {
+    width: 30%;
+  }
+
+  /* line 2852, main.scss */
+  .bookTour {
+    display: none;
+  }
+
+  /* line 2856, main.scss */
+  .contactForm, .globalForm {
+    top: 50px;
+  }
+  /* line 2860, main.scss */
+  .contactForm form .half, .globalForm form .half {
+    width: 90%;
+    margin-left: 5%;
+  }
+  /* line 2869, main.scss */
+  .contactForm form .message, .globalForm form .message {
+    position: relative;
+    top: auto;
+  }
+  /* line 2874, main.scss */
+  .contactForm form .message textarea, .globalForm form .message textarea {
+    height: 160px;
+  }
+
+  /* line 2890, main.scss */
+  .clientsGrid .one_third, .clientsGrid .two_third {
+    float: none;
+    margin-left: 5%;
+  }
+  /* line 2895, main.scss */
+  .clientsGrid .two_third {
+    width: 90%;
+  }
+
+  /* line 2902, main.scss */
+  footer .half {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+/***** END MEDIA QUERY 960PX *******/
+@media screen and (max-width: 550px) {
+  /* line 2920, main.scss */
+  header {
+    height: 130px;
+  }
+  /* line 2924, main.scss */
+  header .logoContainer {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 2931, main.scss */
+  header .mainNav {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 2935, main.scss */
+  header .mainNav ul {
+    text-align: center;
+  }
+  /* line 2939, main.scss */
+  header .mainNav ul li {
+    float: none;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  /* line 2957, main.scss */
+  .facilities span {
+    width: 47%;
+  }
+
+  /* line 2969, main.scss */
+  footer .contactStrip form {
+    display: none;
+  }
+  /* line 2973, main.scss */
+  footer .contactStrip form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* line 2978, main.scss */
+  footer .contactStrip form button {
+    width: 100%;
+  }
+  /* line 2983, main.scss */
+  footer .contactStrip .one_third {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+
+  /* line 3000, main.scss */
+  .mapContainer .mapMeta {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
